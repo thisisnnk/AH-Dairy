@@ -5,15 +5,15 @@ import ImageCard from "./ImageCard";
 // Real Google Reviews from Adventure Holidays Google Maps listing
 // Place ID: 0x3ba857872dbe599b:0xb5e5bcb8e37fb594
 const reviews = [
-  { name: "Kishore Kumar", rating: 5, text: "Adventure Holidays planned our Ooty group trip and it was an amazing experience! Everything from transport to stays was well organized. The team was super helpful and responsive throughout. Highly recommend!" },
-  { name: "Deepa Rajendran", rating: 5, text: "Booked a Manali package through Adventure Holidays and had an unforgettable family vacation. The itinerary was perfectly planned with just the right balance of adventure and relaxation. Will definitely book again!" },
-  { name: "Sathish Murugan", rating: 5, text: "Amazing experience with Adventure Holidays for our Goa trip. They took care of everything — flights, hotels, sightseeing, and the water sports were the highlight. Great value for money!" },
-  { name: "Priya Venkatesh", rating: 5, text: "Our Kerala houseboat experience was magical, all thanks to Adventure Holidays! The backwater cruise, local food, and temple visits — everything was beautifully planned. The kids absolutely loved it!" },
-  { name: "Arun Prakash", rating: 4, text: "Had a wonderful trekking trip to Kodaikanal organized by Adventure Holidays. The guides were knowledgeable and safety measures were excellent. The campsite under the stars was breathtaking!" },
-  { name: "Revathi Suresh", rating: 5, text: "We chose Adventure Holidays for our honeymoon trip to Andaman and it was the best decision! Crystal clear beaches, snorkeling, and the resort was top-notch. Thank you for making it so special!" },
-  { name: "Karthik Rajan", rating: 5, text: "Best travel agency in Coimbatore! Our Ladakh bike trip was expertly organized — permits, accommodations, and backup support on the road. Adventure Holidays made our dream trip come true!" },
-  { name: "Meenakshi Sundaram", rating: 4, text: "Booked a Rajasthan heritage tour package and the experience was outstanding. From Jaipur palaces to Jaisalmer desert safari, everything was perfectly timed. Adventure Holidays truly knows their craft!" },
-  { name: "Vijay Kumar", rating: 5, text: "Excellent planning and execution by Adventure Holidays for our company offsite to Munnar. 40 people, zero hassles. The tea plantation visit and adventure activities were highlights. Outstanding team!" },
+  { name: "Sriram", rating: 5, text: "South India can be overwhelming if not planned properly, but Adventure Holidays managed it professionally. There was enough structure to keep things organized ... enjoy the places instead of just ticking boxes." },
+  { name: "Deepa", rating: 5, text: "Thank you, Adventure Holidays, for a memorable and well-organized trip. Our 2-day school tour to Mysore from St. Johns Girls Higher Secondary School, Kodaikanal, was safe, smooth, and enjoyable." },
+  { name: "Cheranthan", rating: 5, text: "I highly recommend Adventure Holidays to anyone looking for a safe, friendly, and well-organized travel experience. This was not just a holiday, it was a beautiful memory that I will always cherish." },
+  { name: "Shree Vishal", rating: 5, text: "Even with challenges, they managed everything confidently and ensured our comfort and safety. The coordinators were friendly and always helpful." },
+  { name: "Iqra Shiffana", rating: 5, text: "The Adventure holidays organiser did a great job planning our college trip. Everything was well organised, ran smoothly, and any issues were handled quickly. The itinerary was well balanced and ..stress-free" },
+  { name: "Akshaya", rating: 5, text: "From the very beginning, I was impressed by how well everything was organized. Safety was clearly their top priority — every activity was guided by trained professionals" },
+  { name: "Saranya ", rating: 5, text: "Very recently trip was done with them, tripsome days were awesome never wrinkled out at anywhere. Onwhole they are best. We will come back again ADVENTURE HOLIDAYS." },
+  { name: "Yalini", rating: 5, text: "All the staffs who've been working in adventure holidays are soo kind, nd assuring tht you can make a safe journey girls.. without any of the issues they took care of me , pampered me soo well in all assistance" },
+  { name: "Rahamadullah", rating: 5, text: "The team was friendly, supportive, and always responsive, which made the entire trip feel smooth and enjoyable. Highly recommend Adventure Holidays for well-organized adventure holidays!" },
 ];
 
 const images = [
@@ -33,7 +33,7 @@ const images = [
 const IMG_ALT = "Adventure Holidays trip photo";
 
 // Responsive card height classes
-const cardH = "h-[18vh] sm:h-[18vh] md:h-[20vh] lg:h-[22vh]";
+const cardH = "h-[16vh] sm:h-[16vh] md:h-[18vh] lg:h-[20vh]";
 
 const TestimonialsSection = () => {
   return (
@@ -88,7 +88,7 @@ const TestimonialsSection = () => {
           href="https://wa.me/919600479189?text=Hi%20Adventure%20Holidays%2C%20I%20was%20excited%20to%20book%20a%20package%20with%20you"
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-primary text-primary-foreground font-bold py-2 px-6 sm:py-2.5 sm:px-8 md:py-3 md:px-10 lg:py-3 lg:px-12 rounded-lg text-xs sm:text-sm md:text-base transition-all duration-300 hover:brightness-90 hover:scale-105 active:scale-95 shadow-lg inline-block"
+          className="bg-primary text-primary-foreground font-cta font-black uppercase py-2 px-12 sm:py-2.5 sm:px-8 md:py-3 md:px-10 lg:py-3 lg:px-12 rounded-lg text-sm sm:text-base md:text-lg transition-all duration-300 hover:brightness-90 hover:scale-105 active:scale-95 shadow-lg inline-block"
         >
           Book a Package
         </a>

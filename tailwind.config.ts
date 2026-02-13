@@ -17,6 +17,7 @@ export default {
         sans: ['DM Sans', 'sans-serif'],
         display: ['vijaya', 'sans-serif'],
         sub: ['Poppins', 'sans-serif'],
+        cta: ['Montserrat', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
